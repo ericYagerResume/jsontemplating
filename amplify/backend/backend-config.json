@@ -1,14 +1,13 @@
 {
   "auth": {
-    "jsontemplatingbd3aedae": {
+    "jsontemplating6d15615a": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
       "customAuth": false,
       "frontendAuthConfig": {
         "loginMechanisms": [
-          "EMAIL",
-          "PREFERRED_USERNAME"
+          "EMAIL"
         ],
         "signupAttributes": [
           "EMAIL"
@@ -25,7 +24,7 @@
     }
   },
   "storage": {
-    "jsontemplate": {
+    "jsonTemplates": {
       "service": "S3",
       "providerPlugin": "awscloudformation"
     }

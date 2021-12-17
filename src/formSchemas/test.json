@@ -1,6 +1,6 @@
 {
   "definitions": {
-    "address": {
+    "notaddress": {
       "type": "object",
       "properties": {
         "street_address": { "type": "string" },
@@ -12,7 +12,7 @@
   },
   "type": "object",
   "properties": {
-    "billing_address": { "$ref": "#/definitions/address" },
-    "shipping_address": { "$ref": "#/definitions/address" }
+    "billing_address": { "$ref": "#/definitions/notaddress" },
+    "shipping_address": { "$ref": "#/definitions/notaddress" }
   }
 }
